@@ -40,14 +40,11 @@
     padding-left: 10x;
     margin-top: 10px;
   }
-  h2 {
-    display: block;
-    font-size: 150%;
-    font-weight: bold;
-    padding: 10px;
-    height: 50px;
-    color: var(--rustic-pink);
+  h1 {
+    font-size: 200%;
+    padding: 0.5rem;
   }
+ 
   .sub-header p {
     display: block;
     justify-content: flex-end;
@@ -81,14 +78,33 @@
   nav ul li a:hover {
     color: var(--accent-color-1);
   }
-  
-  
-  @media screen and (max-width: 992px) {
-    footer ul li a {
-      border-bottom: none;
-    }
+  main {
+    margin: auto;
+    max-width: 1170px;
   }
   
+  /*section {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin: 32px;
+    outline: var(--pemgrant);
+  }
+  //* h2 {
+    display: block;
+    font-size: 150%;
+    font-weight: bold;
+    justify-content: right;
+    padding: 10px;
+    height: 60px;
+    color: var(--pemgrant);
+  }*/
+  section div.section-content {
+    width: 100%;
+  }
+  
+    
+ 
   @media screen and (max-width: 768px) {
     header {
       flex-direction: column;
@@ -110,3 +126,17 @@
       justify-content: center;
       align-items: center;
     }
+    h2 {
+      display: block;
+      font-size: 150%;
+    font-weight: bold;
+      text-align: left;
+      border-bottom: 5px solid var(--pemgrant);
+      padding: 5px 5px 5px 5px;
+      margin: 10px 10px 10px 10px;
+    }
+    p {
+      padding-left: 0.5em;
+      margin: 10px 10px 10px 10px;
+    }
+  }
