@@ -215,8 +215,7 @@ main {
 }
 
 .grid-item div {
-  background-color: var(--secondary);
-  padding: 8px 10px;
+    padding: 8px 10px;
 }
 
 .grid-item h3 {
