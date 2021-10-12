@@ -1,106 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Raghad Malallah Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+        <meta name="description" content="Raghad Malallah's demo portfolio for bootcamp.">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+      </style>
+    <link rel="stylesheet" href="./assets/css/reset.css" /> 
+    <link rel="stylesheet" href="./assets/css/style.css" /> 
+    <script
+    src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-search-pseudo-elements>
+    </script>
 </head>
+
 <body>
-  <header>
-  <div class="header">
-    <h1>Raghad Malallah</h1>
-      <nav>
-        <ul>
-          <li><a href="#about-me">About me</a></li>
-          <li><a href="#work">Work</a></li>                 
-          <li><a href="#contact-me">Contact me</a></li>
-          <li><a href="#resume">Resume</a></li>
-        </ul>
-      </nav>
-  </div>
+  <!-- Navigation & Main Header -->
+    <header>
+        <h1>Raghad Malallah</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#work">My Work</a>
+            <a href="#contact">Contact Me</a>  
+            <a href="./assets/resume/Raghad+Malallah_Resume.pdf">Resume</a>
+            
+        </nav>
     </header>
-    <div class="sub-header">
-      <p><code> I speak Codes! </code> </p> 
-    </div>
 
-<main>
-    <section id="about">
-      <h2 class="col-left">About me</h2>
-      <div class="col-right">
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil nam,
-          repellendus eveniet id incidunt consectetur delectus atque laborum
-          maxime. Delectus.
-        </p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          dicta cupiditate cumque minus porro mollitia.
-        </p>
+    <!-- Hero -->
+    <section class="hero-banner">
+      <img src="./assets/images/Image from iOS.jpg"/>
+      <div class=codes>
+        <p><code> I speak Codes! </code> </p>
       </div>
     </section>
 
-    <section id="about">
-      <h2 class="col-left">work</h2>
-      <div class="col-right">
-      <div class="gallery">
-        <div class="card">
-          <h3 class="card-title">weeding registry list</h3>
-          <img src="assets/images/php-programming-html-coding-cyberspace-concept (1).jpg" alt="coding php-programming-html-coding-cyberspace-concept freepik"
-            class="card-img"/>
-        </div>
-  
-        <div class="card">
-          <h3 class="card-title">photographer website </h3>
-          <img src="assets/images/online-web-design.jpg"
-            alt="online website design freepik"
-            class="card-img"
-          />
-        </div>
-  
-        <div class="card">
-          <h3 class="card-title">food tracker app</h3>
-          <img src="assets/images/rear-view-programmer-working-all-night-long.jpg"
-            alt="working all night freepik"
-            class="card-img"
-          />
-        </div>
-  
-        <div class="card">
-          <h3 class="card-title">fashion website</h3>
-          <img src="assets/images/web-design-concepts-with-blurred-background.jpg"
-            alt="web-design-concepts-with-blurred-background freepik"
-            class="card-img"
-          />
-        </div>
-  
-        <div class="card">
-          <h3 class="card-title">coding game</h3>
-          <img src="assets/images/website-html-code-browser-view-printed-white-paper-closeup-view.jpg"
-            alt="design product-design-drawing-website-graphic freepik"
-            class="card-img"
-          />
-        </div>
+  <main class="page-wrapper">
+    <!-- About Me -->
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <div>
+        <p>
+          Hey there! My name is Raghad Malallah. and I am Creative graphic designer/ Web Developer with innovative ideas and a unique approach to visuals.
+         <br> Experienced UI developer trained in HTML5, CSS3, Javascript, and Bootstrap.
+         <br> Experienced UX design trained with Adobe Creative Suite. .
+        </p>
+    </section> 
+
+    <!-- Portfolio Grid -->
+    <section class="page-section" id="work">
+      <h2>My Work</h2>
+      <div class="grid-container">
+        <!-- Feature Project #1 -->
+        <a href="https://ericaleesnyder.github.io/meal-search-engine/" class="grid-item image-card"> 
+          <div>
+            <h3>Rapid Recipes</h3>
+            <span>CSS, JS, APIs</span>
+          </div>
+        </a>
+        <!-- Project #2 -->
+        <a href="https://raghadmalallah.github.io/marketing-company/" class="grid-item image-card">
+          <div>
+            <h3>Horiseon</h3>
+            <span>HTML, CSS</span>
+          </div>
+        </a>
+        <!-- Project #3 -->
+        <a href="https://raghadmalallah.github.io/code-quiz/" class="grid-item image-card">
+          <div>
+            <h3>Code Quiz</h3>
+                      </div>
+        </a>
+         <!-- Project #4 -->
+        <a href="https://raghadmalallah.github.io/password-generator/" class="grid-item image-card">
+          <div>
+            <h3>Password Generator</h3>
+                      </div>
+        </a>
+         <!-- Project #5 -->
+        <a href="https://raghadmalallah.github.io/weather-dashboard/" class="grid-item image-card">
+          <div>
+            <h3>Weather Dashboard</h3>
+          </div>
+        </a>
+        <!-- Project #6 -->
+        <a href="https://raghadmalallah.github.io/work-day-scheduler/" class="grid-item image-card">
+          <div>
+            <h3>Work Day Scheduler</h3>
+                      </div>
+        </a>
       </div>
-    </div>
     </section>
-  </header>
-      <section id="about">
-        <h2 class="col-left">Contact Me</h2>
-      </section>
+
     
-              <footer>
-<ul>
-  <li><a href="tell:6196199619">619.619.9619</a></li>
-  <li><a href="mailto:myemail@mywebsite.com">myemail@website.com</a></li>
-  <li><a href="https://github.com/Raghadmalallah">Github</a></li>
-  <li><a href="https://twitter.com/raghadmalallah">Twitter</a></li>
-<li><a href="https://www.linkedin.com/in/raghad-malallah">linkedin</a></li>
-</ul>
-      </footer>
-    </body>
-</main>
-
+    <!-- Contact -->
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <div>
+        <address>
+          <!-- Github -->
+            <a href="https://github.com/Raghadmalallah" target="_blank">
+                <i class="fab fa-github"></i>
+                GitHub
+            </a>
+             <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/raghad-malallah" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                Linkedin
+            </a>
+             <!-- My Email -->
+             <a href="mailto:raghadmalallah@gmail.com.com">Email Me</a>
+           
+          </a>
+        </address>
+      </div>
+    </section>
+  </main>
+</body>
 </html>
