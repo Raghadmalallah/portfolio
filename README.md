@@ -11,5 +11,5 @@ Find me on:
 - Email me with any questions:[raghadmalallah@gmail.com](raghadmalallah@gmail.com)
     
 
-A screenshot of the project ![actual footage of the project](assets/images/_E__bootcamp_homework_portfolio_index.html.png )
+A screenshot of the project ![actual footage of the project](assets/images/raghadmalallah.github.io_portfolio_.png)
 
