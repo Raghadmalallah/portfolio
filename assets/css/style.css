@@ -28,6 +28,7 @@ h6 {
   margin: 0;
 }
 
+
 p {
   margin: 0;
 }
@@ -220,10 +221,27 @@ main {
 
 .grid-item h3 {
   font-size: 1.4rem;
+  color: aliceblue;
+  font-weight: bolder;
 }
 /* Images*/
-.image-card {
-  background-image: url("..//images/rm301-eve-03.jpg");
+.p-image-card {
+  background-image: url("../images/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg");
+}
+.h-image-card {
+  background-image: url("../images/webpage-screenshot.jpg");
+}
+.c-image-card {
+  background-image: url("../images/_E__bootcamp_homework_code-quiz_index.html\ \(1\).png");
+}
+.pg-image-card {
+  background-image: url("../images/password.jpg");
+}
+.w-image-card {
+  background-image: url("../images/weather-dashboard-screen-shot.png");
+}
+.wd-image-card {
+  background-image: url("../images/work-day-scheduler_index.png");
 }
 
 /* Contact Section */
