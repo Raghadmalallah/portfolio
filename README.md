@@ -1,4 +1,19 @@
+<h1 align="center">Portfolio</h1>
+  
+![badge](https://img.shields.io/badge/license-Unlicense-brightgreen) </br> 
+
+## Description
+This is my personal portfolio[](https://raghadmalallah.github.io/portfolio/)
+
+
+Find me on:
+- GitHub: [raghadmalallah](https://github.com/raghadmalallah)</br>
+- Linkden:[raghadmalallah](https://www.linkedin.com/in/raghad-malallah)
+- Email me with any questions:[raghadmalallah@gmail.com](raghadmalallah@gmail.com)
+    
+
 # portfolio
 -[https://raghadmalallah.github.io/portfolio/](https://raghadmalallah.github.io/portfolio/)
 
 A screenshot of the project ![actual footage of the project](assets/images/_E__bootcamp_homework_portfolio_index.html.png )
+
