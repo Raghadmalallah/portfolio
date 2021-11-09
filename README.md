@@ -12,4 +12,3 @@ Find me on:
     
 
 A screenshot of the project ![actual footage of the project](assets/images/raghadmalallah.github.io_portfolio_.png)
-
